@@ -1,0 +1,23 @@
+[root]
+name = "rust-network"
+version = "0.1.0"
+dependencies = [
+ "petgraph 0.2.8 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "fixedbitset"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "petgraph"
+version = "0.2.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "fixedbitset 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum fixedbitset 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "c59882225c22dfcd2db6f0fce45dabe334e64ffa5efacb785b7ffb5af690cc6f"
+"checksum petgraph 0.2.8 (registry+https://github.com/rust-lang/crates.io-index)" = "90442853d819e124bff6d13f745750befbd940198bc5b7a46e7e74f7d073045a"
